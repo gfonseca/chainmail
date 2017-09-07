@@ -1,0 +1,11 @@
+
+version: '2'
+
+services:
+  chainmail:
+    build:
+      context: ./dockerfiles/
+      dockerfile: Dockerfile
+    volumes:
+      - ./:/app/
+    command: ["sleep", "infinity"]

@@ -1,0 +1,23 @@
+{
+    "name": "gfonseca/chainmail",
+    "type": "library",
+    "author": "Georgio",
+    "description": "A framework for extended and complex processing",
+    "authors": [
+        {
+            "name": "Georgio barbosa da Fonseca",
+            "email": "georgio.barbosa@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "codeception/codeception": "~2"
+    },
+    "require": {
+        "php": ">=5.0.0"
+    },
+    "autoload": {
+      "psr-4": {
+          "Chainmail\\": "src/"
+      }
+    }
+}
